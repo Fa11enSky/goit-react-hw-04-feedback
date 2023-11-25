@@ -1,0 +1,17 @@
+.stat_list {
+}
+.stat_item {
+  font-size: 30px;
+}
+.stat_item:first-child > span {
+  color: green;
+}
+.stat_item:nth-child(2) > span {
+  color: orange;
+}
+.stat_item:nth-child(3) > span {
+  color: red;
+}
+.stat_item:nth-child(4) > span {
+  color: blue;
+}

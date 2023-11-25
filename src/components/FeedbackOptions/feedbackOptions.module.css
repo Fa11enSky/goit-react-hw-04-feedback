@@ -1,0 +1,28 @@
+.list {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+.btn {
+  outline: none;
+  border: none;
+  width: 70px;
+  height: 50px;
+  /* background-color: transparent; */
+  cursor: pointer;
+  border-radius: 12px;
+  color: aliceblue;
+  transition: transform 250ms linear;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+.btn[data-id='good'] {
+  background-color: rgb(127, 172, 255);
+}
+.btn[data-id='bad'] {
+  background-color: rgb(228, 101, 101);
+}
+.btn[data-id='neutral'] {
+  background-color: rgb(230, 180, 87);
+}

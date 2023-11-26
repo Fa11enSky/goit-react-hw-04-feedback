@@ -9,7 +9,7 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => {
               className={css.btn}
               type="button"
               data-id={el}
-              onClick={()=>onLeaveFeedback(el)}
+              onClick={() => onLeaveFeedback(el)}
             >
               {el.slice(0, 1).toUpperCase() + el.slice(1, el.lenght)}
             </button>
